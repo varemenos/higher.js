@@ -1,4 +1,4 @@
-> higher.js
+# higher.js
 
 A library that helps you highlight elements on the screen (like the devtools inspector).
 
