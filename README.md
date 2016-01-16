@@ -25,7 +25,8 @@ Combining the 2 methods provided you can get the "inspector" effect that most de
 // highlight the element that's currently hovered with the mouse
 $(document).on('mousemove', higher.highlight);
 // logs out the unique css selector
-// note: that you need to provide the third parameter of addEventListener (true) to make it execute in the capturing phase
+// note: that you need to provide the third parameter of addEventListener (true)
+// to make it execute in the capturing phase
 document.addEventListener('click', higher.getPath, true);
 ```
 
